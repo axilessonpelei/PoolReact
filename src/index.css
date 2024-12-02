@@ -1,0 +1,24 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background: #a87abd;
+}
+.container {
+  background-color: #a17de8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 700px;
+  color: #000000;
+  margin: 100px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
